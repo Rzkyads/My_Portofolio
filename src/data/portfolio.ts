@@ -1,7 +1,7 @@
 export const personalInfo = {
-  name: "Rizky Ade Satriya",
+  name: "RIZKY ADE SATRIYA",
   title: "Network & Infrastructure Engineer",
-  brand: "Rizky Ade Satriya | RAS.net",
+  brand: "RIZKY ADE SATRIYA | Rzkyads",
   badge: "Network Deployment & Activation Engineer | ISP Managed Services",
   location: "Bekasi, Jawa Barat",
   email: "rzkyadesatriya@gmail.com",

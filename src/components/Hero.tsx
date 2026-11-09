@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Download, Mail, MapPin, Phone, Github, Linkedin, Terminal, Server, Activity, ShieldAlert, Award } from "lucide-react";
+import { Download, Mail, MapPin, Phone, Github, Linkedin, Send, Terminal, Server, Activity, ShieldAlert, Award } from "lucide-react";
 import { personalInfo, metrics } from "@/data/portfolio";
 
 export default function Hero() {
@@ -61,6 +61,15 @@ export default function Hero() {
               </a>
               <div className="flex items-center gap-2">
                 <a
+                  href="https://t.me/Rzkyads"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 text-slate-400 bg-slate-900 border border-slate-800 rounded-lg hover:text-sky-400 hover:border-sky-500/40 transition-all"
+                  title="Telegram (@Rzkyads)"
+                >
+                  <Send className="w-4 h-4" />
+                </a>
+                <a
                   href={personalInfo.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -114,7 +123,11 @@ export default function Hero() {
             <Mail className="w-4 h-4 text-blue-400" />
             <span>{personalInfo.email}</span>
           </a>
-          <a href={`tel:${personalInfo.phone.replace(/[^0-9+]/g, '')}`} className="flex items-center gap-2 px-3 py-1.5 rounded-md bg-slate-900/60 border border-slate-800 hover:border-blue-500/40 transition-colors">
+          <a href="https://t.me/Rzkyads" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-3 py-1.5 rounded-md bg-slate-900/60 border border-slate-800 hover:border-sky-500/40 transition-colors">
+            <Send className="w-4 h-4 text-sky-400" />
+            <span>Telegram: @Rzkyads</span>
+          </a>
+          <a href={`tel:${personalInfo.phoneLink}`} className="flex items-center gap-2 px-3 py-1.5 rounded-md bg-slate-900/60 border border-slate-800 hover:border-blue-500/40 transition-colors">
             <Phone className="w-4 h-4 text-blue-400" />
             <span>{personalInfo.phone}</span>
           </a>

@@ -5,8 +5,11 @@ export const personalInfo = {
   badge: "Network Deployment & Activation Engineer | ISP Managed Services",
   location: "Bekasi, Jawa Barat",
   email: "rzkyadesatriya@gmail.com",
-  phone: "+62 823-2209-7625",
-  linkedin: "https://linkedin.com/in/rizkyadesatriya",
+  phone: "+62 857-7801-5569",
+  phoneLink: "+6285778015569",
+  telegram: "https://t.me/Rzkyads",
+  telegramId: "@Rzkyads",
+  linkedin: "https://www.linkedin.com/in/rizkyadesatriya",
   github: "https://github.com/Rzkyads",
   summary: "Spesialis dalam Network Provisioning, High-Availability BGP/BFD Redundancy, dan Manajemen Infrastruktur ISP skala Enterprise (500+ Client Dedicated & Broadband). Memadukan keahlian MikroTik, HP Switch, Ruijie, Omada SDN, serta Network Security (ECIH & CND)."
 };

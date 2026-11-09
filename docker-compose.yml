@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  portfolio:
+    build: .
+    container_name: portfolio-rizky
+    restart: always
+    ports:
+      - "5050:5050"
+    environment:
+      - NODE_ENV=production
+      - PORT=5050

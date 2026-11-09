@@ -126,15 +126,15 @@ export const projects = [
     company: "Cyaneum NCM",
     category: "Network Automation & Security",
     type: "Personal Lab & Automation Project",
-    description: "Pengembangan sistem terpusat untuk backup otomatis perangkat multi-vendor (MikroTik, HP, Ruijie) menggunakan skrip Python/FastAPI serta integrasi dashboard WireGuard.",
+    description: "Pengembangan sistem terpusat untuk backup otomatis perangkat multi-vendor (MikroTik, HP, Ruijie) menggunakan skrip Python/FastAPI.",
     challenge: "Audit konfigurasi manual dan pemulihan perangkat yang memakan waktu lama saat terjadi kegagalan hardware.",
     impact: "Memotong durasi configuration audit manual dan mempermudah pemulihan perangkat jika terjadi kegagalan hardware.",
     solutions: [
       "Pemanfaatan Celery task queue & Redis untuk menjalankan jadwal ekstraksi konfigurasi perangkat secara berkala.",
       "Integrasi Notifikasi Telegram Bot untuk memberikan alert status sukses/gagal backup secara real-time.",
-      "Kontainerisasi stack aplikasi menggunakan Docker Compose di lingkungan Ubuntu Server."
+      "Kontainerisasi stack aplikasi menggunakan Docker Compose di lingkungan Ubuntu Server.",
     ],
-    techStack: ["Python", "FastAPI", "Docker", "WireGuard", "Telegram Bot API", "Redis", "Celery"],
+    techStack: ["Python", "FastAPI", "Docker", "Telegram Bot API", "Redis", "Celery"],
     github: "https://github.com/Rzkyads/NCM-Network-Configuration-Management-.git",
     image: "/projects/cyaneum-ncm.png"
   }

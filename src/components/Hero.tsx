@@ -95,7 +95,7 @@ export default function Hero() {
                   alt={personalInfo.name}
                   fill
                   priority
-                  className="object-cover object-center grayscale contrast-125 hover:grayscale-0 transition-all duration-500"
+                  className="object-cover object-center transition-all duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60" />
               </div>

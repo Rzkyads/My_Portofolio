@@ -140,6 +140,26 @@ export const projects = [
     techStack: ["Python", "FastAPI", "Docker", "Telegram Bot API", "Redis", "Celery"],
     github: "https://github.com/Rzkyads/NCM-Network-Configuration-Management-.git",
     image: "/projects/cyaneum-ncm.png"
+  },
+  {
+    id: "multi-router-wireguard",
+    title: "Multi-Router WireGuard Automated Provisioning",
+    category: "VPN Infrastructure | Network Automation & Management",
+    type: "Personal Lab & Automation Project",
+    description:
+      "Sistem manajemen terpusat (CMS) untuk provisioning otomatis tunnel WireGuard VPN ke multi-router MikroTik dengan alokasi IP dinamis dan generate konfigurasi client secara instan.",
+    challenge:
+      "Konfigurasi peer WireGuard secara manual pada banyak router MikroTik berisiko menyebabkan konflik IP, kesalahan pertukaran public/private key, serta memakan waktu saat onboarding klien baru.",
+    impact:
+      "Mempercepat proses provisioning VPN multi-router menjadi hitungan detik tanpa konflik alamat IP serta mempermudah manajemen akses remote jaringan.",
+    solutions: [
+      "Membangun backend API terpusat yang terintegrasi langsung dengan RouterOS API untuk eksekusi peer dan interface WireGuard secara otomatis.",
+      "Menerapkan algoritma alokasi IP subnet dinamis lintas router agar setiap peer mendapatkan IP unik tanpa tumpang tindih.",
+      "Menyediakan antarmuka web dashboard untuk manajemen peer, monitoring status koneksi, dan unduh file konfigurasi (.conf) client.",
+    ],
+    techStack: ["Python", "FastAPI", "MikroTik RouterOS API", "WireGuard", "Docker", "SQLite"],
+    github: "https://github.com/Rzkyads/Multi-Router-WireGuard-Automated-Provisioning.git",
+    image: "/projects/Multi-Router-WireGuard-Automated-Provisioning.png",
   }
 ];
 

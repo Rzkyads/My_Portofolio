@@ -159,7 +159,7 @@ export const projects = [
     ],
     techStack: ["Python", "FastAPI", "MikroTik RouterOS API", "WireGuard", "Docker", "SQLite"],
     github: "https://github.com/Rzkyads/Multi-Router-WireGuard-Automated-Provisioning.git",
-    image: "/projects/Multi-Router-WireGuard-Automated-Provisioning.png",
+    image: "/projects/wireguard-provisioning.png",
   }
 ];
 
